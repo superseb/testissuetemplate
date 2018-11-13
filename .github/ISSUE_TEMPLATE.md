@@ -6,7 +6,7 @@ For security issues, please email security@rancher.com instead of posting a publ
 **What kind of request is this (question/bug/enhancement/feature request):**
 
 
-**Steps to reproduce (from scratch if possible):**
+**Steps to reproduce (least amount of steps as possible):**
 
 
 **Result:**
@@ -16,29 +16,17 @@ For security issues, please email security@rancher.com instead of posting a publ
 
 
 **Environment information**
-- Rancher version (`rancher/rancher` image tag or shown bottom left in the UI):
+- Rancher version (`rancher/rancher`/`rancher/server` image tag or shown bottom left in the UI):
 - Installation option (single install/HA):
 
 <!--
-If the reported issue is regarding a created cluster, please provided requested info below
+If the reported issue is regarding a created cluster, please provide requested info below
 -->
 
 **Cluster information**
 - Cluster type (Hosted/Infrastructure Provider/Custom/Imported):
-- Machine type (cloud/metal) and specifications (CPU/memory):
+- Machine type (cloud/VM/metal) and specifications (CPU/memory):
 - Kubernetes version (use `kubectl version`):
-
-```
-(paste the output here)
-```
-
-- Operating system (use `/etc/os-release`):
-
-```
-(paste the output here)
-```
-
-- Kernel (use `uname -a`):
 
 ```
 (paste the output here)
